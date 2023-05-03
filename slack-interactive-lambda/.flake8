@@ -1,0 +1,11 @@
+[flake8]
+exclude =
+    .git,
+    .venv,
+    __pycache__,
+    dist,
+    htmlcov,
+    tests
+max-line-length = 120
+max-complexity = 20
+ignore = E203, E266, W503
